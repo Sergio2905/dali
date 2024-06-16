@@ -129,7 +129,6 @@ h6 {
   --black: #000;
   --green: #4CBE57;
   --blue: #110937;
-  --red: #F24D4D;
   --pink: #D63567;
   --yellow: #FFC700;
   --bg: url("../img/loading.gif") 50% no-repeat;
@@ -411,7 +410,7 @@ body._lock {
   right: 0;
   width: 24px;
   height: 24px;
-  background: url("../../img/icons/icons.svg#arrow2") center/contain no-repeat;
+  background: url("../img/icons/icons.svg#arrow2") center/contain no-repeat;
 }
 
 .graph {
@@ -483,7 +482,7 @@ body._lock {
   width: 42%;
   aspect-ratio: 272/246;
   pointer-events: none;
-  background: url("../../img/direction/bg.svg") center/contain no-repeat;
+  background: url("../img/direction/bg.svg") center/contain no-repeat;
   transform: translate(14%, -2%);
 }
 
@@ -520,7 +519,7 @@ body._lock {
   top: 50%;
   left: 0;
   transform: translate(0, -50%);
-  background: url("../../img/icons/icons.svg#check") center/contain no-repeat;
+  background: url("../img/icons/icons.svg#check") center/contain no-repeat;
 }
 
 .directions__item:not(:last-child) {
