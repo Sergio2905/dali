@@ -1046,6 +1046,7 @@ body._lock {
   font-size: 0.9375rem;
   font-weight: 600;
   line-height: 1.5;
+  height: 310px;
 }
 
 .tabs__link.active span {
@@ -1129,12 +1130,26 @@ body._lock {
   flex: 1 1 33.333%;
   background: var(--yellow);
   align-self: flex-start;
+  position: relative;
+}
+
+.faculties__extra::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 60%;
+  height: 50%;
+  background: var(--pink);
+  clip-path: polygon(0 0, 60% 3%, 100% 55%, 100% 100%, 0 100%);
 }
 
 .faculties__desc {
   font-size: 1.125rem;
   line-height: 2;
   padding: 40px;
+  position: relative;
+  z-index: 1;
 }
 
 .faculties__desc span {
@@ -1144,6 +1159,8 @@ body._lock {
 .faculties__image {
   display: flex;
   justify-content: center;
+  position: relative;
+  z-index: 1;
 }
 
 .faculties__image img {
