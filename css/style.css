@@ -84,14 +84,6 @@ h6 {
 }
 
 @font-face {
-  font-family: "Lazurski";
-  font-display: swap;
-  src: url("../fonts/Lazurski-Bold-Cyrillic.woff2") format("woff2"), url("../fonts/Lazurski-Bold-Cyrillic.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
   font-family: "Inter";
   font-display: swap;
   src: url("../fonts/Inter-Bold.woff2") format("woff2"), url("../fonts/Inter-Bold.woff") format("woff");
@@ -269,18 +261,6 @@ body._lock {
 
 .logo__text img {
   max-width: 100%;
-}
-
-.logo__name {
-  font-family: "Lazurski";
-  font-size: 1.125rem;
-  line-height: 1.5;
-  text-align: center;
-}
-
-.logo__name span {
-  font-size: 1.375rem;
-  text-transform: uppercase;
 }
 
 .contacts__body {
@@ -1758,10 +1738,6 @@ body._lock {
 
   .logo__image {
     margin: 0 20px 0 0;
-  }
-
-  .logo__name {
-    text-align: left;
   }
 
   .features__body {
