@@ -5,7 +5,7 @@
     <title>МИСТЕЦЬКИЙ КОЛЕДЖ iм. Сальвадора Далі</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.min.css?_v=20240617142537">
+    <link rel="stylesheet" href="css/style.min.css?_v=20240702124040">
     <link rel="icon" type="image/ico" href="favicon.ico">
 </head>
 
@@ -23,7 +23,16 @@
                                 <img src="img/logo.svg" alt="Logo">
                             </div>
                             <div class="logo__text">
-                                <img src="img/logo-text.svg" alt="Name">
+                                <picture>
+                                    <source media="(max-width: 576px)" srcset="img/logo-text-mob.svg"
+                                        type="image/svg+xml">
+                                    <source media="(max-width: 768px)" srcset="img/logo-text-768.svg"
+                                        type="image/svg+xml">
+                                    <source media="(max-width: 993px)" srcset="img/logo-text-993.svg"
+                                        type="image/svg+xml">
+                                    <source media="(min-width: 993px)" srcset="img/logo-text.svg" type="image/svg+xml">
+                                    <img src="img/logo-text.svg" alt="Image">
+                                </picture>
                             </div>
                             <!-- <p class="logo__name"><span>МИСТЕЦЬКИЙ КОЛЕДЖ</span> iм. Сальвадора Далі</p> -->
                         </div>
@@ -78,20 +87,20 @@
                                 </div>
                                 <ul class="menu__list">
                                     <li class="menu__item">
-                                        <a href="#" class="menu__link">Графічний дизайн</a>
+                                        <a href="#tab1" class="menu__link">Графічний дизайн</a>
                                     </li>
                                     <li class="menu__item">
-                                        <a href="#" class="menu__link">Дизайн одягу (взуття)</a>
+                                        <a href="#tab2" class="menu__link">Дизайн одягу (взуття)</a>
                                     </li>
                                     <li class="menu__item">
-                                        <a href="#" class="menu__link">Дизайн середовища</a>
+                                        <a href="#tab3" class="menu__link">Дизайн середовища</a>
                                     </li>
                                     <li class="menu__item">
-                                        <a href="#" class="menu__link">Перукарське мистецтво та декоративна
+                                        <a href="#tab4" class="menu__link">Перукарське мистецтво та декоративна
                                             косметика</a>
                                     </li>
                                     <li class="menu__item">
-                                        <a href="#" class="menu__link">Образотворче та декоративне мистецтво,
+                                        <a href="#tab5" class="menu__link">Образотворче та декоративне мистецтво,
                                             реставрація</a>
                                     </li>
                                 </ul>
@@ -131,12 +140,12 @@
                         </div>
                         <div class="directions__info">
                             <h2 class="directions__title">Обери свою майбутню професію</h2>
-                            <ul class="directions__list">
-                                <li class="directions__item">Графічний дизайн</li>
-                                <li class="directions__item">Дизайн одягу (взуття)</li>
-                                <li class="directions__item">Дизайн середовища</li>
-                                <li class="directions__item">Перукарське мистецтво та декоративна косметика</li>
-                                <li class="directions__item">Образотворче та декоративне мистецтво, реставрація</li>
+                            <ul>
+                                <li>Графічний дизайн</li>
+                                <li>Дизайн одягу (взуття)</li>
+                                <li>Дизайн середовища</li>
+                                <li>Перукарське мистецтво та декоративна косметика</li>
+                                <li>Образотворче та декоративне мистецтво, реставрація</li>
                             </ul>
                         </div>
                     </div>
@@ -313,17 +322,17 @@
                                 </a>
                                 <a href="#tab3" class="tabs__link lazy" data-tab="tab3">
                                     <picture>
-                                        <source data-srcset="img/faculties/image3.webp" srcset="img/plug.png"
+                                        <source data-srcset="img/faculties/image4.webp" srcset="img/plug.png"
                                             type="image/webp">
-                                        <img data-src="img/faculties/image3.png" src="img/plug.png" alt="Image">
+                                        <img data-src="img/faculties/image4.png" src="img/plug.png" alt="Image">
                                     </picture>
                                     <span>Дизайн середовища</span>
                                 </a>
                                 <a href="#tab4" class="tabs__link lazy" data-tab="tab4">
                                     <picture>
-                                        <source data-srcset="img/faculties/image4.webp" srcset="img/plug.png"
+                                        <source data-srcset="img/faculties/image3.webp" srcset="img/plug.png"
                                             type="image/webp">
-                                        <img data-src="img/faculties/image4.png" src="img/plug.png" alt="Image">
+                                        <img data-src="img/faculties/image3.png" src="img/plug.png" alt="Image">
                                     </picture>
                                     <span>Перукарське мистецтво та декоративна косметика</span>
                                 </a>
@@ -569,9 +578,9 @@
                                         </p>
                                         <div class="faculties__image lazy">
                                             <picture>
-                                                <source data-srcset="img/faculties/image8.webp" srcset="img/plug.png"
+                                                <source data-srcset="img/faculties/image9.webp" srcset="img/plug.png"
                                                     type="image/webp">
-                                                <img data-src="img/faculties/image8.png" src="img/plug.png"
+                                                <img data-src="img/faculties/image9.png" src="img/plug.png"
                                                     alt="Image">
                                             </picture>
                                         </div>
@@ -649,9 +658,9 @@
                                         </p>
                                         <div class="faculties__image lazy">
                                             <picture>
-                                                <source data-srcset="img/faculties/image9.webp" srcset="img/plug.png"
+                                                <source data-srcset="img/faculties/image8.webp" srcset="img/plug.png"
                                                     type="image/webp">
-                                                <img data-src="img/faculties/image9.png" src="img/plug.png"
+                                                <img data-src="img/faculties/image8.png" src="img/plug.png"
                                                     alt="Image">
                                             </picture>
                                         </div>
@@ -922,19 +931,19 @@
                     <nav class="menu-footer__body">
                         <ul class="menu-footer__list">
                             <li class="menu-footer__item">
-                                <a href="#" class="menu-footer__link">Графічний дизайн</a>
+                                <a href="#tab1" class="menu-footer__link">Графічний дизайн</a>
                             </li>
                             <li class="menu-footer__item">
-                                <a href="#" class="menu-footer__link">Дизайн одягу (взуття)</a>
+                                <a href="#tab2" class="menu-footer__link">Дизайн одягу (взуття)</a>
                             </li>
                             <li class="menu-footer__item">
-                                <a href="#" class="menu-footer__link">Дизайн середовища</a>
+                                <a href="#tab3" class="menu-footer__link">Дизайн середовища</a>
                             </li>
                             <li class="menu-footer__item">
-                                <a href="#" class="menu-footer__link">Перукарське мистецтво та декоративна косметика</a>
+                                <a href="#tab4" class="menu-footer__link">Перукарське мистецтво та декоративна косметика</a>
                             </li>
                             <li class="menu-footer__item">
-                                <a href="#" class="menu-footer__link">Образотворче та декоративне мистецтво,
+                                <a href="#tab5" class="menu-footer__link">Образотворче та декоративне мистецтво,
                                     реставрація</a>
                             </li>
                         </ul>
@@ -971,7 +980,7 @@
 </footer>
     </div>
 
-    <script src="js/app.min.js?_v=20240617142537" defer></script>
+    <script src="js/app.min.js?_v=20240702124040" defer></script>
 </body>
 
 </html>
