@@ -291,8 +291,8 @@ body._lock {
 }
 
 .contacts__social {
-  width: 24px;
-  height: 24px;
+  width: 32px;
+  height: 32px;
 }
 
 .contacts__social:not(:last-child) {
@@ -310,7 +310,7 @@ body._lock {
 }
 
 .contacts__phone {
-  font-size: 0.9375rem;
+  font-size: 1rem;
   font-weight: 800;
   color: var(--white);
 }
@@ -1560,7 +1560,7 @@ body._lock {
   }
 
   .features__title {
-    font-size: calc(1.5rem + 8 * (100vw - 20rem) / 1085);
+    font-size: calc(1.75rem + 4 * (100vw - 20rem) / 1085);
     margin-bottom: calc(32px + 28 * (100vw - 320px) / 1085);
   }
 
